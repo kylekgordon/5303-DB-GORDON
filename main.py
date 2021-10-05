@@ -117,7 +117,7 @@ class Item(BaseModel):
     brand: str
     price: float
 
-class WorldItem(BaseModel):
+class World(BaseModel):
     id: Optional[int] = None
     area: Optional[int] = None
     population: Optional[int] = None
