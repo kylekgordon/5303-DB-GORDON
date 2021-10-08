@@ -1,0 +1,8 @@
+wget = clone websites, recursive search, 1 layer, -A file type, no parent = dont create parent folders,
+
+##
+wget https://datasets.imdbws.com/ -r -l1 --no-parent -A ".gz"
+##
+
+## Database normalization - Split up tables
+
