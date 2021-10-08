@@ -238,79 +238,10 @@ async def read_item(item_id:int):
     return response
 
 
-## ALL ##
-@app.get("/all/")
-async def read_item_all(request:Request):
-    response = {
-        "BASICS": "-----------------------------------",
-        basics[1]['question']:  request.url_for("read_item_basics", **{"item_id":1}),
-        basics[2]['question']:  request.url_for("read_item_basics", **{"item_id":2}),
-        basics[3]['question']:  request.url_for("read_item_basics", **{"item_id":3}),
-        "WORLD": "-----------------------------------",
-        world[1]['question']:  request.url_for("read_item_world", **{"item_id":1}),
-        world[2]['question']:  request.url_for("read_item_world", **{"item_id":2}),
-        world[3]['question']:  request.url_for("read_item_world", **{"item_id":3}),
-        world[4]['question']:  request.url_for("read_item_world", **{"item_id":4}),
-        world[5]['question']:  request.url_for("read_item_world", **{"item_id":5}),
-        world[6]['question']:  request.url_for("read_item_world", **{"item_id":6}),
-        world[7]['question']:  request.url_for("read_item_world", **{"item_id":7}),
-        world[8]['question']:  request.url_for("read_item_world", **{"item_id":8}),
-        world[9]['question']:  request.url_for("read_item_world", **{"item_id":9}),
-        world[10]['question']:  request.url_for("read_item_world", **{"item_id":10}),
-        world[11]['question']:  request.url_for("read_item_world", **{"item_id":11}),
-        world[12]['question']:  request.url_for("read_item_world", **{"item_id":12}),
-        world[13]['question']:  request.url_for("read_item_world", **{"item_id":13}),
-        "NOBEL": "-----------------------------------",
-        nobel[1]['question']:  request.url_for("read_item_nobel", **{"item_id":1}),
-        nobel[2]['question']:  request.url_for("read_item_nobel", **{"item_id":2}),
-        nobel[3]['question']:  request.url_for("read_item_nobel", **{"item_id":3}),
-        nobel[4]['question']:  request.url_for("read_item_nobel", **{"item_id":4}),
-        nobel[5]['question']:  request.url_for("read_item_nobel", **{"item_id":5}),
-        nobel[6]['question']:  request.url_for("read_item_nobel", **{"item_id":6}),
-        nobel[7]['question']:  request.url_for("read_item_nobel", **{"item_id":7}),
-        nobel[8]['question']:  request.url_for("read_item_nobel", **{"item_id":8}),
-        nobel[9]['question']:  request.url_for("read_item_nobel", **{"item_id":9}),
-        nobel[10]['question']:  request.url_for("read_item_nobel", **{"item_id":10}),
-        nobel[11]['question']:  request.url_for("read_item_nobel", **{"item_id":11}),
-        nobel[12]['question']:  request.url_for("read_item_nobel", **{"item_id":12}),
-        nobel[13]['question']:  request.url_for("read_item_nobel", **{"item_id":13}),
-        nobel[14]['question']:  request.url_for("read_item_nobel", **{"item_id":14}),
-        "SELECT WITHIN": "-----------------------------------",
-        within[1]['question']:  request.url_for("read_item_within", **{"item_id":1}),
-        within[2]['question']:  request.url_for("read_item_within", **{"item_id":2}),
-        within[3]['question']:  request.url_for("read_item_within", **{"item_id":3}),
-        within[4]['question']:  request.url_for("read_item_within", **{"item_id":4}),
-        within[5]['question']:  request.url_for("read_item_within", **{"item_id":5}),
-        within[6]['question']:  request.url_for("read_item_within", **{"item_id":6}),
-        within[7]['question']:  request.url_for("read_item_within", **{"item_id":7}),
-        within[8]['question']:  request.url_for("read_item_within", **{"item_id":8}),
-        within[9]['question']:  request.url_for("read_item_within", **{"item_id":9}),
-        within[10]['question']:  request.url_for("read_item_within", **{"item_id":10}),
-        "SUM AND COUNT": "-----------------------------------",
-        aggregate[1]['question']:  request.url_for("read_item_aggregate", **{"item_id":1}),
-        aggregate[2]['question']:  request.url_for("read_item_aggregate", **{"item_id":2}),
-        aggregate[3]['question']:  request.url_for("read_item_aggregate", **{"item_id":3}),
-        aggregate[4]['question']:  request.url_for("read_item_aggregate", **{"item_id":4}),
-        aggregate[5]['question']:  request.url_for("read_item_aggregate", **{"item_id":5}),
-        aggregate[6]['question']:  request.url_for("read_item_aggregate", **{"item_id":6}),
-        aggregate[7]['question']:  request.url_for("read_item_aggregate", **{"item_id":7}),
-        aggregate[8]['question']:  request.url_for("read_item_aggregate", **{"item_id":8}),
-        "JOINT": "-----------------------------------",
-        joint[1]['question']:  request.url_for("read_item_joint", **{"item_id":1}),
-        joint[2]['question']:  request.url_for("read_item_joint", **{"item_id":2}),
-        joint[3]['question']:  request.url_for("read_item_joint", **{"item_id":3}),
-        joint[4]['question']:  request.url_for("read_item_joint", **{"item_id":4}),
-        joint[5]['question']:  request.url_for("read_item_joint", **{"item_id":5}),
-        joint[6]['question']:  request.url_for("read_item_joint", **{"item_id":6}),
-        joint[7]['question']:  request.url_for("read_item_joint", **{"item_id":7}),
-        joint[8]['question']:  request.url_for("read_item_joint", **{"item_id":8}),
-        joint[9]['question']:  request.url_for("read_item_joint", **{"item_id":9}),
-        joint[10]['question']:  request.url_for("read_item_joint", **{"item_id":10}),
-        joint[11]['question']:  request.url_for("read_item_joint", **{"item_id":11}),
-        joint[12]['question']:  request.url_for("read_item_joint", **{"item_id":12}),
-        joint[13]['question']:  request.url_for("read_item_joint", **{"item_id":13})}
 
-    return (response)
+
+
+
 
     
 @app.post("/world/")
