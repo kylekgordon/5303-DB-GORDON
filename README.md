@@ -18,4 +18,6 @@ http://147.182.249.216
 |    05   |      [A05](https://github.com/kylekgordon/5303-DB-GORDON/tree/master/A05)       |            Movies DB.           |
 |    06   |      [A06](https://github.com/kylekgordon/5303-DB-GORDON/tree/master/A06)       |            Restaurants DB (with Mongo)           |
 |    07   |      [A07](https://github.com/kylekgordon/5303-DB-GORDON/tree/master/A07)       |            Advising (with Mongo OR SQLite)            |
+|    07   |      [A07](https://github.com/kylekgordon/5303-DB-GORDON/tree/master/A07)       |            Advising (with Mongo OR SQLite)            |
+|    08   |      [A08](https://github.com/kylekgordon/5303-DB-GORDON/tree/master/A08)       |            Redis Api Something            |
 
