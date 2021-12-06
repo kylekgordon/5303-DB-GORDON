@@ -11,4 +11,3 @@ Create your local database of the movie data using the files located at the foll
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | main.py         | Main file to run functions.      |
 |  2   | loadmovies.py         | Used to load and filter file data.      |
-
