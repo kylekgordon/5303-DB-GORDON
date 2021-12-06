@@ -3,7 +3,7 @@
 
 ### Description:
 
-*Queries to answer each of the questions at https://sqlzoo.net for the specific topics using local database of the SqlZoo data.
+Queries to answer each of the questions at https://sqlzoo.net for the specific topics using local database of the SqlZoo data.
 
 ### Files
 
